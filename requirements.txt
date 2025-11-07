@@ -1,0 +1,4 @@
+# 使用清华源加速
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+
+torch==2.4.1+cu124

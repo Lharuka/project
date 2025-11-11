@@ -10,7 +10,7 @@ class MyConfig():
         self.train_ratio = 0.7
         self.label_pos = 0 # 标签所在列数
         self.batch_size = 2048
-        self.num_epoch = 1000
+        self.num_epoch = 10
         self.lr = 5e-5
 
         if torch.cuda.is_available():
